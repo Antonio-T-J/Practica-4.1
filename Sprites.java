@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.image.*;
 import java.awt.*;
-// dsffdgngggbEn esta clase para los personajes...
+
 public class Sprites extends JPanel{
 
 	BufferedImage imagen;
@@ -16,9 +16,6 @@ public class Sprites extends JPanel{
 	{
 
 		super.paintComponent(g);
-
-		g.setColor(Color.WHITE);
-		g.fillOval(10,10,50,50);
 		g.drawImage(imagen,0,0,64,64,null);
 	}
 }
