@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.image.*;
 import java.awt.*;
-//En esta clase para los personajes...
+// dsffdgngggbEn esta clase para los personajes...
 public class Sprites extends JPanel{
 
 	BufferedImage imagen;
